@@ -1,0 +1,493 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663746402555948, "dur":1182, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746402557139, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663746402557192, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663746402557211, "dur":247, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663746402557489, "dur":468, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746402557957, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627556, "dur":74, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627630, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627642, "dur":115, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627757, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627765, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627767, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627773, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627775, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627781, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627782, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627787, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627789, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627794, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627807, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627813, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627815, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627822, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627826, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403627831, "dur":2079, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663746402557690, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402557963, "dur":3545, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402561516, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663746402561517, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402561588, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663746402561592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402562158, "dur":6186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663746402568346, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663746402568401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402568543, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663746402571276, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1663746402571317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402571526, "dur":47742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1663746402619311, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402619354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402619360, "dur":38346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402657745, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402657818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402657826, "dur":65397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402723311, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402723353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402723359, "dur":45340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402768737, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402768771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402768778, "dur":28641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402797461, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402797502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402797510, "dur":26748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402824294, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402824331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402824341, "dur":56868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402881247, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402881287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402881295, "dur":28468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402909827, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402909866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402909872, "dur":37563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402947468, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402947503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402947510, "dur":31389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402978936, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402978990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402978998, "dur":20796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402999836, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746402999875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746402999883, "dur":45852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403045772, "dur":90376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403136154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746403136162, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403137647, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403137689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746403137695, "dur":262171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403399904, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403399941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663746403399950, "dur":52245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663746403452231, "dur":175366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402557716, "dur":254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402557970, "dur":3543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402561516, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663746402561609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402563106, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663746402564962, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663746402565027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402565248, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1663746402567847, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663746402567889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402567912, "dur":53070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663746402621025, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402621069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402621075, "dur":79000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402700116, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402700161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402700169, "dur":22565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402722810, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402722854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402722862, "dur":102858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402825760, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402825802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402825809, "dur":38037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402863880, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402863915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402863922, "dur":23722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402887681, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402887717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402887722, "dur":36168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402923927, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402923965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402923973, "dur":38035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402962049, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402962089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402962097, "dur":32872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402995005, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746402995042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746402995049, "dur":26605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403021692, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403021732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403021739, "dur":37786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403059563, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403059601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403059609, "dur":52366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403112010, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403112724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403112732, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403113568, "dur":49237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403162811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403162820, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403164441, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403164481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403164488, "dur":148667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403313195, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403313233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403313242, "dur":100554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403413834, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403413879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663746403413887, "dur":213502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663746403627432, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1663746403627434, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402557710, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402557966, "dur":3548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402561517, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663746402561592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402562792, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663746402564961, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1663746402565032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402565264, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1663746402566726, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663746402566840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402567563, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663746402568529, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1663746402568568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402568573, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1663746402569770, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402569821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402569864, "dur":49340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402619254, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402619296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402619332, "dur":39955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402659351, "dur":1239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402660596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402660604, "dur":36107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402696747, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402696785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402696791, "dur":34091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402730920, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402730999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402731010, "dur":58516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402789562, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402789601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402789609, "dur":119340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402908982, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402909017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402909023, "dur":51965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402961029, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746402961070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746402961082, "dur":53590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403014727, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403014771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746403014780, "dur":47861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403062675, "dur":226098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403288779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746403288788, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403289981, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403290019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746403290026, "dur":46479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403336552, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403336612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663746403336619, "dur":119460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663746403456117, "dur":171532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402557737, "dur":289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402558026, "dur":3521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402561547, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663746402561616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402568100, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663746402569604, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402569665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402569823, "dur":47915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402617880, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402617947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402619016, "dur":77543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402696599, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402696640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402696648, "dur":43475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402740165, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402740276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402740284, "dur":196667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402936988, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746402937026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746402937033, "dur":116593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403053662, "dur":75594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403129259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403129265, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403130627, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403131303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403131310, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403132321, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403133050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403133059, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403133982, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403134023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403134031, "dur":82282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403216350, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403216388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403216395, "dur":30932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403247369, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403247410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403247418, "dur":172434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403419886, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403419919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663746403419927, "dur":138497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663746403558448, "dur":69033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402557754, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402558030, "dur":3482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402561516, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1663746402561611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402569242, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1663746402570849, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST.exe" }}
+,{ "pid":12345, "tid":5, "ts":1663746402570908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402570912, "dur":155388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST.exe" }}
+,{ "pid":12345, "tid":5, "ts":1663746402726336, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402726375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402726383, "dur":59906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402786325, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402786360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402786367, "dur":72796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402859197, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402859230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402859236, "dur":22731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402882007, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402882054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402882062, "dur":21229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402903330, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402903372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402903380, "dur":44244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402947662, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402947700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402947723, "dur":33497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402981260, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746402981301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746402981309, "dur":111142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403092488, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403093899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403093908, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403095074, "dur":31622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403126703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403126715, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403127717, "dur":2049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403129817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403129824, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403130769, "dur":27235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403158011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403158020, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403159128, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403159162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403159168, "dur":148394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403307609, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403307653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403307663, "dur":122864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403430590, "dur":49183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403479781, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663746403479796, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663746403480955, "dur":146693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402557772, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402558033, "dur":3480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402561517, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1663746402561599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402563017, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1663746402565161, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663746402565199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402565393, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663746402566770, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1663746402566822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402567290, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1663746402568580, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1663746402568620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402568625, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1663746402570486, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1663746402570530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402570535, "dur":48724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1663746402619313, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402619362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402619368, "dur":46922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402666777, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402666850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402666860, "dur":123998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402790891, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402790927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402790934, "dur":67639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402858613, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402858652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402858717, "dur":28896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402887652, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402887696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402887705, "dur":20487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402908232, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402908274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402908282, "dur":20816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402929137, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402929177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402929184, "dur":24366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402953589, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402953628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402953636, "dur":27899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402981569, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746402981606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746402981613, "dur":24892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403006542, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403006578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746403006585, "dur":28373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403034992, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403035034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746403035042, "dur":27159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403062237, "dur":79724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403141968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746403141977, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403142994, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403143029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746403143036, "dur":52234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403195307, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403195342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746403195350, "dur":78531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403274074, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403274119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663746403274126, "dur":215599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663746403489750, "dur":137941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402557791, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402558040, "dur":3475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402561516, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663746402561606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402562876, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663746402565053, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663746402565098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402565274, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663746402567372, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1663746402567420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402567607, "dur":53107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1663746402620879, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402620944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402620953, "dur":61116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402682107, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402682161, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402682194, "dur":62165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402744405, "dur":183817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402928228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402928237, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402929642, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402929681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402929686, "dur":33896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402963619, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746402963662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746402963669, "dur":41949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403005656, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403005696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403005704, "dur":38570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403044310, "dur":38859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403083175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403083184, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403084618, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403085330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403085338, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403086194, "dur":41131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403127329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403127337, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403128498, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403129091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403129099, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403129910, "dur":22378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403152295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403152304, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403153283, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403153322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403153328, "dur":91452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403244817, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403244861, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403244914, "dur":32413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403277366, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403277404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663746403277412, "dur":219560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663746403496998, "dur":130693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402557805, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402558043, "dur":3503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402561547, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663746402561616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402568432, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663746402569794, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402569836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402569840, "dur":57419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402627305, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402627362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402627374, "dur":52925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402680336, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402680376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402680405, "dur":28018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402708465, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402708512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402708521, "dur":77254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402785820, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402785865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402785874, "dur":72931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402858842, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402858879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402858885, "dur":20055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402878979, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402879021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402879029, "dur":37826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402916891, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402916947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402916955, "dur":32224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402949217, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402949270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402949278, "dur":23336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402972650, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402972687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402972695, "dur":25610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402998346, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746402998391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746402998403, "dur":22415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403020859, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403020914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403020923, "dur":150851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403171812, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403171851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403171859, "dur":70956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403242849, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403242900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403242908, "dur":91048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403333994, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403334032, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403334044, "dur":100852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663746403434935, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663746403435149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403435806, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663746403436504, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1663746403436564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403436606, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1663746403437604, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1663746403437641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403437648, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1663746403442339, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663746403442372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403442379, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663746403443189, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663746403443219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403443224, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663746403443986, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1663746403444094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403444100, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1663746403444824, "dur":778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1663746403445605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403445611, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1663746403446442, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663746403446478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403446483, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663746403447268, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1663746403447303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403447327, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1663746403448125, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663746403448166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403448173, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1663746403449048, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1663746403449084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403449090, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1663746403449860, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1663746403449995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663746403450001, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/chpu.CHPU-1/Desktop/TopShooter/TST_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1663746403450676, "dur":176884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663746403631553, "dur":2223, "ph":"X", "name": "ProfilerWriteOutput" }
+,
